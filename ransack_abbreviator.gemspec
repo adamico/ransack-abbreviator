@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency 'ransack', '~> 1.1'#0.7
+  s.add_dependency 'ransack', '~> 1.1'
   s.add_development_dependency "pry"
   s.add_development_dependency 'rspec', '~> 2.8.0'
   s.add_development_dependency 'machinist', '~> 1.0.6'
